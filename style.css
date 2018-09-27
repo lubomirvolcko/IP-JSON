@@ -1,0 +1,56 @@
+body{
+    margin: 0px auto;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-attachment: fixed;
+    font-family: cursive;
+    font-size: 1.5vw;
+}
+
+#h1 {
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+tr {
+    text-align: center;
+    margin: 10px;
+}
+
+table {
+    margin: 2px auto;
+}
+
+th {
+    padding: 10px;
+}
+
+#tr:nth-child(even) {
+    background: rgba(255,255,255,0.8);
+}
+
+#tr:nth-child(odd) {
+    background: rgba(31, 200, 219,0.4);
+}
+
+#td1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+#td2 {
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+#perror {
+    text-align: center;
+    color: red;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 10px auto;
+}
